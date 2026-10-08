@@ -45,6 +45,31 @@ This repository contains:
 - STM32
 - PCB Design
 
+## Hardware Components
+
+| Component | Quantity | Purpose |
+|---|---:|---|
+| STM32 Blue Pill (STM32F103C8T6) | 1 | Main microcontroller |
+| TB6612FNG Motor Driver | 1 | Controls two DC motors |
+| Mini-360 Buck Converter | 1 | Steps down the input voltage |
+| Push Button | 2 | User input |
+| DIP Switch | 1 | Configuration and control |
+| IR Sensor Header | 1 | Connection for line sensors |
+| Power Input Terminal Block | 1 | Battery/power input |
+| Motor Output Terminal Block | 2 | Left and right motor connections |
+
+## Board Features
+
+- STM32-based control
+- Dual DC motor control using TB6612FNG
+- Dedicated IR sensor interface
+- On-board buck converter
+- Two push buttons
+- DIP switch for configuration
+- Screw terminal for power input
+- Screw terminals for motor outputs
+- Custom PCB designed using KiCad
+
 ## Author
 
 Jayanth Balaji
